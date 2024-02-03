@@ -1,5 +1,5 @@
 import React from "react";
-import heroImg from "../assets/heroImage.png";
+import heroImg from "../assets/heroImageBGBLUE.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import "./Home.css";
 

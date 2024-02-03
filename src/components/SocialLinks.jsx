@@ -55,29 +55,39 @@ export default function SocialLinks() {
       id: 6,
       child: (
         <>
-          LinkedIn <BsFillPersonLinesFill size={30} />
+          Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "",
-      style: "rounded-tr-md",
+      href: "/resume.pdf",
+      style: "rounded-br-md",
+      download: true,
     },
   ];
 
   return (
-    <div className="flex flex-col top-[35%] left-0 fixed">
+    <div className="hidden lg:flex flex-col top-[32%] left-0 fixed">
       <ul>
-        <li
-          className="flex justify-between items-center w-40 h-14 
-        px-4 bg-gray-500 ml-[-100px] hover:rounded-md duration-300 hover:ml-[-10px]"
-        >
-          <a
-            href=""
-            className="flex justify-between items-center w-full
-          text-white"
+        {links.map(({ id, child, href, style, download }) => (
+          <li
+            key={id}
+            className={
+              "flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-100px] hover:rounded-md duration-300 hover:ml-[-10px]" +
+              " " +
+              style
+            }
           >
-            xd
-          </a>
-        </li>
+            <a
+              href={href}
+              download={download}
+              target="_blank"
+              rel="noreferrer"
+              className="flex justify-between items-center w-full
+               text-white"
+            >
+              {child}
+            </a>
+          </li>
+        ))}
       </ul>
     </div>
   );
