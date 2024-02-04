@@ -10,7 +10,8 @@ export default function Home() {
       className="h-screen w-full bg-gradient-to-b from-black  via-black to-gray-700"
     >
       <main className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full">
+        <div className="flex flex-col justify-center h-[50%] sm:w-4/5 sm:h-[90] md:h-full md:w-full">
+          {/* or h-[90%] optimal mobile ↑↑↑  w-[80] gives me optimal for mobile not for desktop*/}
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I'm a Web Developer & Designer
           </h2>
@@ -36,7 +37,7 @@ export default function Home() {
           <img
             src={heroImg}
             alt="Developer's Profile"
-            className="rounded-full mx-auto w-2/3 h-38 md:w-full img"
+            className="rounded-full mx-auto w-2/3 md:w-full img"
           />
         </div>
       </main>

@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaDiscord, FaWhatsapp } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import "./SocialLinks.css";
 
 export default function SocialLinks() {
   const links = [
@@ -65,7 +66,7 @@ export default function SocialLinks() {
   ];
 
   return (
-    <div className="hidden lg:flex flex-col top-[32%] left-0 fixed">
+    <div id="social">
       <ul>
         {links.map(({ id, child, href, style, download }) => (
           <li

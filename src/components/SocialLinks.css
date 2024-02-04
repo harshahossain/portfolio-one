@@ -1,0 +1,13 @@
+/* className="hidden lg:flex flex-col top-[32%] left-0 fixed" */
+#social {
+  display: none;
+}
+@media (min-width: 1150px) {
+  #social {
+    display: flex;
+    flex-direction: column;
+    top: 32%;
+    left: 0%;
+    position: fixed;
+  }
+}
