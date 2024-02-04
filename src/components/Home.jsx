@@ -11,7 +11,9 @@ export default function Home() {
     >
       <main className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-[50%] sm:w-4/5 sm:h-[90] md:h-full md:w-full">
-          {/* or h-[90%] optimal mobile ↑↑↑  w-[80] gives me optimal for mobile not for desktop*/}
+          {/*↑↑↑ or h-[90%] optimal mobile  w-[80] gives me optimal for mobile not for desktop*/}
+          {/*flex flex-col justify-center h-full"*/}
+
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I'm a Web Developer & Designer
           </h2>
