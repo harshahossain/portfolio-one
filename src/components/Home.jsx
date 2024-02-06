@@ -2,6 +2,7 @@ import React from "react";
 import heroImg from "../assets/heroImageBGBLUE.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import "./Home.css";
+import { Link } from "react-scroll";
 
 export default function Home() {
   return (
@@ -23,7 +24,10 @@ export default function Home() {
             like React, Javascript and Tailwind.
           </p>
           <div>
-            <button
+            <Link
+              to="portfolio"
+              smooth={true}
+              duration={500}
               className="group text-white w-fit px-6 py-3 my-2 
               flex items-center rounded-md bg-gradient-to-r 
               from-cyan-500 to-blue-500 cursor-pointer hover:scale-105 duration-300"
@@ -32,7 +36,7 @@ export default function Home() {
               <span className="group-hover:rotate-90 duration-300">
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>
-            </button>
+            </Link>
           </div>
         </div>
         <div>

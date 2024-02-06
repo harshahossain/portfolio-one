@@ -61,7 +61,7 @@ export default function Portfolio() {
           >
             Portfolio
           </p>
-          <p className="py-6 text-gray-200">Check out some of work here.</p>
+          <p className="py-6 text-gray-200">Check out some of my work here.</p>
         </div>
         {/* ↓↓↓ cards  */}
 
