@@ -11,7 +11,7 @@ export default function Portfolio() {
       id: 1,
       src: slickDress,
       alt: "Clothing Brand Website",
-      demo: "",
+      demo: "https://slickdress.netlify.app",
       code: "https://github.com/harshahossain/slick-dress.git",
     },
     {
