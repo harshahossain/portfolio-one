@@ -16,11 +16,12 @@ export default function Portfolio() {
     },
     {
       id: 2,
-      src: newsPortal,
-      alt: "News Portal Website",
-      demo: "",
-      code: "https://github.com/harshahossain/news-portal.git",
+      src: ticTac,
+      alt: "Tic Tac Toe Game",
+      demo: "https://harshahossain.github.io/tic-tac-toe/",
+      code: "https://github.com/harshahossain/tic-tac-toe.git",
     },
+
     {
       id: 3,
       src: dadJokes,
@@ -37,10 +38,10 @@ export default function Portfolio() {
     },
     {
       id: 5,
-      src: ticTac,
-      alt: "Tic Tac Toe Game",
+      src: newsPortal,
+      alt: "News Portal Website",
       demo: "",
-      code: "https://github.com/harshahossain/tic-tac-toe.git",
+      code: "https://github.com/harshahossain/news-portal.git",
     },
   ];
 
