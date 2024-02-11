@@ -59,7 +59,7 @@ export default function SocialLinks() {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/resume.pdf",
+      href: "https://drive.google.com/file/d/1oLQD_6ZPkqNb0DgLeJBGVaOKDZX680Pe/view?usp=sharing",
       style: "rounded-br-md",
       download: true,
     },
